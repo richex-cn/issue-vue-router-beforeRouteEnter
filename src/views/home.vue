@@ -39,6 +39,9 @@ console.log('home setup')
 
 const now = ref(Date.now())
 const getName = () => 'Vue'
+
+// https://github.com/vuejs/router/issues/1367#issuecomment-1094692042
+// defineExpose({ now })
 </script>
 
 <style></style>
